@@ -86,6 +86,9 @@
      </widget>
     </widget>
     <widget class="QPushButton" name="pushButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -132,7 +135,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="start_slot_comboBox"/>
+       <widget class="QComboBox" name="start_slot_comboBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -162,7 +169,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="end_slot_comboBox"/>
+       <widget class="QComboBox" name="end_slot_comboBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -177,7 +188,7 @@
      </rect>
     </property>
     <property name="value">
-     <number>24</number>
+     <number>0</number>
     </property>
    </widget>
   </widget>
